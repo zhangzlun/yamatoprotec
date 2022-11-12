@@ -204,7 +204,7 @@ main
     display: block;
     transition: ease .3s;
     position: relative;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .link__convert:after {
@@ -235,9 +235,8 @@ main
 
 /*section common*/
 .scatter-text {
-    font-weight: 600;
+    font-weight: 900;
     white-space: nowrap;
-
     letter-spacing: 0.08em;
 }
 
