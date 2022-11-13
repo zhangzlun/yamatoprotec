@@ -253,6 +253,8 @@ main
     letter-spacing: 0.12em;
     line-height: 1.5;
     color: #cf1126;
+
+    padding: 120px 0 80px 0;
 }
 
 .section-title::after {
@@ -356,7 +358,7 @@ main
 }
 
 .jobs-container .jobs-container__content {
-    padding: 0 clamp(16px, 5.2083333333vw, 100px);;
+    padding: 0 clamp(16px, 5.2083333333vw, 100px);
 }
 
 .jobs-container__content .scatter-text {
@@ -435,6 +437,7 @@ main
     font-size: clamp(60px, 5.2083333333vw, 100px);
 }
 
-.section-staff .staff-container {
+.section-staff .staff-container__content {
+    padding: 0 clamp(16px, 5.2083333333vw, 100px);
     background-color: #201952;
 }
